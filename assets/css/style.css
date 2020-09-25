@@ -458,6 +458,38 @@ text-decoration: none;
 	border: 1px solid #56ab2f !important;
 }
 
+.teacher_icon li{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border: 1px solid #c7c7c7;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+}
+.teacher_icon li a{
+	color: black;
+}
+.teacher_icon li a:hover{
+	color:  #56ab2f !important;
+}
+.active_card_teacher{
+	border: 1px solid #000;
+}
+.contact-list li{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.contact-list li a{
+	height: 40px;
+	width: 40px;
+	padding: 8px;
+	border-radius: 50%;
+	background:  #56ab2f !important;
+	margin-right: 10px;
+}
+
+
 /*********************************************************************************
 								Breadcrumb CSS End
 *********************************************************************************/
