@@ -36,7 +36,7 @@ a{
 }
 ::placeholder{
 	color: white;
-};
+}
 /*********************************************************************************
 								Base CSS End
 *********************************************************************************/
@@ -457,8 +457,8 @@ text-decoration: none;
 .c_btn_border{
 	border: 1px solid #56ab2f !important;
 }
-
 .teacher_icon li{
+	
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
@@ -466,12 +466,13 @@ text-decoration: none;
 	border-radius: 50%;
 	text-align: center;
 	margin-left: 5px;
+	padding-top: 0 !important;
 }
 .teacher_icon li a{
 	color: black;
 }
 .teacher_icon li a:hover{
-	color:  #56ab2f !important;
+	color: #56ab2f !important;
 }
 .active_card_teacher{
 	border: 1px solid #000;
